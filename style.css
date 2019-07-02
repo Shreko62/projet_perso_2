@@ -1,7 +1,9 @@
 @font-face {
     font-family: "style";
     src: url("typo/alex-brush/AlexBrush-Regular.ttf") format("truetype");
-
+    
+    
+    
 }
 
 
@@ -51,7 +53,7 @@ html {
 
 .navbar {
 
-    height: 10vh;
+    height: 9vh;
     border: 1px solid black;
 
 
@@ -64,7 +66,7 @@ html {
 }
 
 .nav__text--p {
-    font-size: 2vh;
+    font-size: 1.9vh;
     padding: 3%;
 }
 
@@ -163,16 +165,17 @@ a {
 .rules{
     line-height:140%;
     padding: 5% 0% 5% 0%;
+    font-size: 2vh;
+    text-align: justify;
 }
 
 
 
-@media screen and (min-width:700px) {
+@media screen and (min-width:600px) {
     .art1 {
         background-color: white;
         height: 35vh;
         width: auto;
-        
         margin: 5%;
     }
 
@@ -234,7 +237,7 @@ a {
 }
 
 
-@media screen and (min-width:800px) {
+@media screen and (min-width:700px) {
 
     .art1 {
         background-color: white;
